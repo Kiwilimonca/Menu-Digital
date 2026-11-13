@@ -1646,7 +1646,7 @@ function sendOrder() {
   }).join('\n');
   const total = cart.reduce((sum, item) => sum + productTotal(item), 0);
   const message = `Hola Kiwi Limón, quiero hacer este pedido:\n\n${lines}\n\nTotal: ${money(total)}\nEntrega: ${delivery === 'pickup' ? 'Pick up' : 'Delivery'}\nPago: ${paymentMethod}\nNombre: ${name}\nCédula: ${cedula}\nTeléfono: ${phone}${delivery === 'delivery' ? `\nDirección: ${address}` : ''}`;
-  window.open(`https://wa.me/584128731016?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+  window.open(`https://wa.me/584144070906?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   showToast('Pedido listo para enviar por WhatsApp.');
 }
 
