@@ -1218,7 +1218,7 @@ let products = [
     "id": 1794334389638,
     "name": "Acai Para",
     "category": "Acai bowl",
-    "desc": "",
+    "desc": "Delicioso acai con topping de fresas, kiwi, melocotón, cocos, almendras, granola y miel.",
     "price": 14,
     "image": "image/Para.jpg",
     "isWeight": false,
