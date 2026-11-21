@@ -384,7 +384,7 @@ let products = [
     "id": 1794181032861,
     "name": "Don verde",
     "category": "Detox",
-    "desc": "",
+    "desc": "El mejor licuado desintoxicante: Piña, limon, pepino, espinaca, hierbabuena y celery",
     "price": 3,
     "image": "image/Dverde.jpg",
     "isWeight": false,
